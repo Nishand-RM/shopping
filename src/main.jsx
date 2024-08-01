@@ -1,12 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Mob from './App'
 
-function Mob(){
-  return   <h1>Hello Nishand RM!</h1>
-
-}
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
-  <Mob />
+ <Mob />
 )
