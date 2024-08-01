@@ -1,10 +1,8 @@
-function Hello(assign){
+function Hello({val1,val2}){
 
-    const a =10;
-    const b =20;
     return (
         <div>
-        {a} + {b} is {a+b}
+        {val1} + {val2} is {val1+val2}
         </div>
     )
 
