@@ -5,7 +5,12 @@ function Mob(){
     <div>
     <h1>Hello Nishand RM!</h1>
     <p>How r u?</p>
-    <Hello />
+    <Hello 
+    value = "male"
+     />
+    <Hello 
+    value = "23"
+    />
     </div>
     )
   
