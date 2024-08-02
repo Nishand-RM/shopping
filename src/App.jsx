@@ -6,8 +6,8 @@ function App({notes}) {
         <h1>Names</h1>
         <ul>
             {
-               notes.map((note)=>{
-                return <li>{note.name}</li>
+               notes.map((note,index)=>{
+                return <li key={index}>{note.name}</li>
                })
             }
         </ul>
@@ -15,8 +15,8 @@ function App({notes}) {
         <h1>Place</h1>
         <ul>
             {
-               notes.map((note)=>{
-                return <li>{note.place}</li>
+               notes.map((item,index)=>{
+                return <li key={index}>{item.place}</li>
                })
             }
         </ul>
