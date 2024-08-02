@@ -1,17 +1,35 @@
-import Hello from "./component/Hello";
+function App({notes}) {
+    const notelist =[];
+    const noteplace =[];
+    for(let i=0;i<notes.length;i++)
+    {
+        notelist.push(<li>{notes[i].name}</li>)
+    }
 
-function Mob(){
+    for(let i=0;i<notes.length;i++)
+        {
+            noteplace.push(<li>{notes[i].place}</li>)
+        }
+    console.log(noteplace);
+  return (
+    <div>
+        <h1>Names</h1>
+        <ul>
+            {
+               notelist
+            }
+        </ul>
 
-    const a=10;
-    const b=20;
-    return  (
-        <div>
-             <Hello
-              val1 = {a} 
-              val2 ={b}/>
-  
-        </div>
-    )
-  }
+        <h1>Place</h1>
+        <ul>
+            {
+               noteplace 
+            }
+        </ul>
+    </div>
 
-  export default Mob;
+    
+  )
+}
+
+export default App;
