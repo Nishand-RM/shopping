@@ -6,22 +6,27 @@ const notes =[
   {
     id: 1,
     name: "Niki",
-    place:"cbe"
+    place:"cbe",
+    result: true
   },
   {
     id: 2,
     name: "viki",
-    place:"tup"
+    place:"tup",
+    result: true
   },
   {
-    id: 2,
+    id: 3,
     name: "mahi",
-    place:"avninashi"
+    place:"avinashi",
+    result: false
+
   },
   {
     id: 4,
     name: "sandy",
-    place:"tenkasi"
+    place:"tenkasi",
+    result: true
   }
 ]
 

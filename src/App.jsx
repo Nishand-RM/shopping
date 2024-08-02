@@ -1,3 +1,6 @@
+import Note from "./component/note";
+
+
 function App({notes}) {
    
     
@@ -6,24 +9,20 @@ function App({notes}) {
         <h1>Names</h1>
         <ul>
             {
-               notes.map((note,index)=>{
-                return <li key={index}>{note.name}</li>
+               notes.map(note=>{
+                return <Note 
+                     note={note} 
+                     key={note.id}
+                     />
                })
             }
         </ul>
-
-        <h1>Place</h1>
-        <ul>
-            {
-               notes.map((item,index)=>{
-                return <li key={index}>{item.place}</li>
-               })
-            }
-        </ul>
-    </div>
+        </div>)
 
     
-  )
+
+    
+
 }
 
 export default App;
