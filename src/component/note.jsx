@@ -1,8 +1,9 @@
 function Note ({note}){
     
-        return <li>{
-            note.result ? note.name + '★' : note.name
-            }
+        return <li>
+              {note.name} {note.result + '★'} 
+
+            
             </li>
         
       
