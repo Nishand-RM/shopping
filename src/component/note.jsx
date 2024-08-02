@@ -1,10 +1,9 @@
 function Note ({note}){
     
-        if(note.result){
-            return <li>{note.name} { '★' }</li>
-        }
-        else
-        return <li>{note.name}</li>
+        return <li>{
+            note.result ? note.name + '★' : note.name
+            }
+            </li>
         
       
 }
