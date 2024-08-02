@@ -14,9 +14,9 @@ const notes =[
     place:"tup"
   },
   {
-    id: 3,
+    id: 2,
     name: "mahi",
-    place:"avniashi"
+    place:"avninashi"
   },
   {
     id: 4,
