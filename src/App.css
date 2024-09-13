@@ -1,0 +1,42 @@
+header {
+    background: #343a40;
+    color: #f8f9fa;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  header h1, header p {
+    margin: 0;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ffffff;
+    color: #343a40;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
