@@ -1,17 +1,6 @@
-header {
-    background: #343a40;
-    color: #f8f9fa;
-    padding: 20px;
-    position: relative;
-    text-align: center;
-  }
-  
-  header h1, header p {
-    margin: 0;
-  }
-  
-  .cart-count {
-    position: absolute;
+
+.cart-count {
+    position: fixed;
     top: 20px;
     right: 20px;
     background: #ffffff;
@@ -19,6 +8,18 @@ header {
     padding: 10px;
     border-radius: 5px;
     font-size: 1.2em;
+    z-index: 1000; 
+  }
+  
+  .header {
+    background: #343a40;
+    color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1, .header p {
+    margin: 0;
   }
   
   .card {
